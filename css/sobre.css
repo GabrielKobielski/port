@@ -32,6 +32,7 @@ body {
     top: 0px;
     right: 0px;
     transition: background-color 0.5s ease, color 0.5s ease;
+    border-radius: 5px;
 }
 
 #quadrado2 {
@@ -42,6 +43,7 @@ body {
     top: 40vw;
     right: 40vw;
     transition: background-color 0.5s ease, color 0.5s ease;
+    border-radius: 5px;
 }
 
 #quadrado3 {
@@ -109,7 +111,15 @@ body {
     font-size: 50px;
 
 }
-
+#nome-vertical{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 124rem;
+    top: 10rem;
+}
 #ano {
     position: absolute;
     top: 17vw;
@@ -117,7 +127,13 @@ body {
     font-size: 50px;
 
 }
-
+#desc{
+    position: absolute;
+    top: 30vw;
+    left: 15vw;
+    font-size: 18px;
+    max-width: 46vw;
+}
 .switch {
     width: 35px;
     /**/
@@ -187,6 +203,10 @@ body.light #quadrado2 {
 
 body.light #risco {
     background-color: rgb(1, 80, 1);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+body.light #nome-vertical{
+    color: black;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
