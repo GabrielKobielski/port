@@ -1,15 +1,19 @@
 * { /*código geral*/
-    color: white;
+    
     text-decoration: none;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
 }
 
 body { /*Corpo do código*/
-    background-color: black;/**/
+  background-color: rgb(36, 36, 36);
+    transition: 0.5s;
     font-family: "Slabo 13px", serif;/**/
     font-style: normal;/**/
     overflow: hidden;/**/
     transition: .5s;/**/
-    
+    color: white;
 }
 
 .tudo {/*classe que engloba todo o código que esta no main*/
@@ -21,7 +25,7 @@ body { /*Corpo do código*/
     flex-direction: column;/**/
     user-select: none;/**/
     gap: 20px;/**/
-
+    color:white;
 }
 
 .perfil { /*Código que se refere as imagens dos icones*/
@@ -60,6 +64,7 @@ body { /*Corpo do código*/
     align-items: center;/**/
     justify-content: center;/**/
     gap: 10px;/**/
+    color:white;
 }
 
 .coluna-central ul {
@@ -84,6 +89,7 @@ body { /*Corpo do código*/
     gap: 20px;/**/
     color: black;/**/
     transition: color 0.5s ease;/**/
+    
 }
 /*aqui diz sobre a formatação dos links*/
 #sobre,
@@ -125,13 +131,38 @@ body { /*Corpo do código*/
 }
 
 body.light {
-    background-color: #8f8f8f;/**/
     
+    background-color: rgb(220, 219, 219);
+    
+}
+body.light #logo{
+    color: black;
+}
+body.light #desc{
+    color: white;
 }
 /*até aqui é o modo noturno*/
 /*aqui diz sobre a fonte utilizada*/
-.slabo-13px-regular {
-    font-family: "Slabo 13px", serif;/**/
-    font-weight: 400;/**/
-    font-style: normal;/**/
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
 }

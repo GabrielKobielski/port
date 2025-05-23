@@ -2,15 +2,17 @@
     font-family: "Space Mono", monospace;
     font-weight: 700;
     font-style: normal;
+    user-select: none;
 }
 
 body {
-    transition: background-color 0.5s ease, color 0.5s ease;
+
     color: black;
     background: linear-gradient(to right,
             rgb(240, 238, 238) 78.88%,
             rgb(0, 0, 0) 78.88% 100%);
-
+    user-select: none;
+    transition: 1.5s;
 }
 
 #foto-perfil {
@@ -31,7 +33,7 @@ body {
     position: absolute;
     top: 0px;
     right: 0px;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: 0.5s;
     border-radius: 5px;
 }
 
@@ -41,8 +43,8 @@ body {
     background-color: rgb(95, 95, 95);
     position: absolute;
     top: 40vw;
-    right: 40vw;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    right: 38vw;
+    transition: 0.5s;
     border-radius: 5px;
 }
 
@@ -53,7 +55,7 @@ body {
     position: absolute;
     top: 27vw;
     left: 15vw;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: 0.5s;
 }
 
 #quadrado4 {
@@ -63,7 +65,7 @@ body {
     position: absolute;
     top: 27vw;
     left: 19vw;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: 0.5s;
 }
 
 #quadrado5 {
@@ -73,14 +75,24 @@ body {
     position: absolute;
     top: 27vw;
     left: 23vw;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: 0.5s;
+}
 
+#quadrado6 {
+    width: 9vw;
+    height: 2vw;
+    background-color: rgb(55, 87, 56);
+    position: absolute;
+    top: 94%;
+    left: 41vw;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 #risco {
     width: 37vw;
     height: 4px;
-    background-color:rgb(55, 87, 56);
+    background-color: rgb(55, 87, 56);
     position: absolute;
     top: 20vw;
     left: 15vw;
@@ -98,7 +110,7 @@ body {
 #risco3 {
     width: 15vw;
     height: 4px;
-    background-color: rgb(96,91,87);
+    background-color: rgb(96, 91, 87);
     position: absolute;
     top: 22vw;
     left: 37vw;
@@ -111,15 +123,17 @@ body {
     font-size: 50px;
 
 }
-#nome-vertical{
+
+#nome-vertical {
     writing-mode: vertical-rl;
     text-orientation: upright;
     font-size: 24px;
     color: white;
     position: absolute;
-    left: 124rem;
+    left: 129rem;
     top: 10rem;
 }
+
 #ano {
     position: absolute;
     top: 17vw;
@@ -127,13 +141,32 @@ body {
     font-size: 50px;
 
 }
-#desc{
+
+#desc {
     position: absolute;
     top: 30vw;
     left: 15vw;
     font-size: 18px;
-    max-width: 46vw;
+    max-width: 45vw;
 }
+
+#seta-esquerda {
+    display: flex;
+    position: absolute;
+    max-width: 12px;
+    height: 40px;
+    top: 45vw;
+    left: 43vw;
+}
+
+#seta-direita {
+    display: flex;
+    position: absolute;
+    height: 40px;
+    top: 45vw;
+    left: 46vw;
+}
+
 .switch {
     width: 35px;
     /**/
@@ -185,29 +218,40 @@ body {
 }
 
 body.light {
+
     color: white;
     background: linear-gradient(to right,
             rgb(0, 0, 0) 78.88%,
-            rgb(240, 238, 238) 78.88% 100%)
+            rgb(240, 238, 238) 78.88% 100%);
+    transition: 0.5s;
+
+
 }
 
 body.light #quadrado {
     background-color: rgb(95, 95, 95);
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: 0.5s;
 }
 
 body.light #quadrado2 {
     background-color: orangered;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: 0.5s;
+}
+
+body.light #quadrado6 {
+    background-color: orangered;
+    transition: 0.5s;
+    border: 2px solid white;
 }
 
 body.light #risco {
     background-color: rgb(1, 80, 1);
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: 0.5s;
 }
-body.light #nome-vertical{
+
+body.light #nome-vertical {
     color: black;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: 0.5s;
 }
 
 .space-mono-regular {

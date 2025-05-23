@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/projetos.css">
+    <link rel="icon" href="/img/bug-outline.svg" type="image/svg+xml">
+    <title>Projetos</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <div class="switch" id="trilho" onclick="toggleMode()">
+                <div class="indicador"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <div class="capa">
+                    <figure id="fundo">
+                        <div id="quadrados">
+                            <div class="quadrado" id="quadrado1"></div>
+                            <div class="quadrado" id="quadrado2"></div>
+                            <div class="quadrado" id="quadrado3"></div>
+                            <div class="quadrado" id="quadrado4"></div>
+                            <div class="mini-quadrado" id="quadrado5"></div>
+                            <div class="mini-quadrado" id="quadrado6"></div>
+                            <div class="mini-quadrado" id="quadrado7"></div>
+                        </div>
+                        <div id="riscos">
+                            <div class="risco" id="risco1"></div>
+                            <div class="risco" id="risco2"></div>
+                            <div class="risco" id="risco3"></div>
+                            <div class="risco" id="risco4"></div>
+                            <div class="risco" id="risco5"></div>
+                        </div>
+                        <img src="/img/perfil.jpeg" alt="Imagem de fundo" id="imagem-fundo">
+                        <div id="rampa"></div>
+                    </figure>
+
+                    
+                    <div id="text">
+                        <h1 id="titulo">Projetos</h1>
+                        <p id="desc">Um dos meus projetos principais são próteses para pessoas com deficiência motora,
+                            um exemplo seriam braços robóticos como implantes.</p>
+                        <p id="desc2">O meu segundo projeto seria um drone de pulverização com controle de realidade
+                            virtual para que seja possível visualizar o trajeto a partir da própria câmera.</p>
+                        <p id="numero1">01</p>
+                        <p id="numero2">02</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("light");
+            document.querySelector(".switch").classList.toggle("light");
+        }
+    </script>
 </body>
+
 </html>
