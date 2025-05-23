@@ -1,0 +1,115 @@
+/* Define a fonte padrão para todos os elementos como "Space Mono", estilo monoespaçado, em negrito e normal */
+* {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+/* Define o fundo do corpo da página e adiciona uma transição suave nas mudanças de estilo */
+body {
+    background-color: rgb(238, 238, 238);
+    transition: 0.5s; /* Suaviza a transição de estilos */
+}
+
+/* Estiliza o botão de alternância (switch) */
+.switch {
+    width: 35px; /* Largura do botão */
+    height: 20px; /* Altura do botão */
+    background-color: #4d4d4d; /* Cor de fundo do botão */
+    border-radius: 10px; /* Cantos arredondados */
+    position: relative; /* Posicionamento relativo para conter o indicador */
+    cursor: pointer; /* Cursor de clique */
+    margin: 10px; /* Espaçamento externo */
+}
+
+/* Estiliza o indicador interno do botão switch */
+.switch .indicador {
+    width: 20px; /* Largura do indicador */
+    height: 20px; /* Altura do indicador */
+    background-color: black; /* Cor do indicador */
+    border-radius: 50%; /* Forma circular */
+    transform: scale(.9); /* Leve redução de escala */
+    position: absolute; /* Posicionamento absoluto dentro do switch */
+    left: 0; /* Posiciona à esquerda */
+    transition: 0.5s; /* Suaviza transições do indicador */
+}
+
+/* Estilo do switch quando está no modo "light" */
+.switch.light {
+    background-color: rgb(77, 77, 77); /* Cor do switch em modo claro */
+}
+
+/* Estilo do indicador quando o switch está em modo "light" */
+.switch.light .indicador {
+    left: 15px; /* Move o indicador para a direita */
+    background-color: rgb(98, 93, 93); /* Altera a cor do indicador */
+}
+
+/* Estilo do corpo da página quando está no modo "light" */
+body.light {
+    background-color: rgb(36, 36, 36); /* Fundo escuro para modo claro invertido (modo noturno?) */
+}
+
+/* Altera cor do elemento com ID "risco1" no modo "light" */
+body.light #risco1 {
+    background-color: orangered;
+}
+
+/* Altera cor do elemento com ID "risco2" no modo "light" */
+body.light #risco2 {
+    background-color: orangered;
+}
+
+/* Altera estilo do elemento com ID "rampa" no modo "light" */
+body.light #rampa {
+    background-color: orangered;
+    transition: 0.5s; /* Suaviza mudanças */
+    border: 4px solid white; /* Borda branca espessa */
+}
+
+/* Altera cor do texto de elemento com ID "text" no modo "light" */
+body.light #text {
+    color: white;
+}
+
+/* Altera cor dos elementos com IDs "risco3", "risco4" e "risco5" no modo "light" */
+body.light #risco3 {
+    background-color: orangered;
+}
+body.light #risco4 {
+    background-color: orangered;
+}
+body.light #risco5 {
+    background-color: orangered;
+}
+
+/* Define variações de peso e estilo da fonte Space Mono */
+
+/* Fonte regular (peso normal, sem itálico) */
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Fonte em negrito (peso 700, sem itálico) */
+.space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Fonte itálica (peso normal, com itálico) */
+.space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Fonte negrito itálico (peso 700, com itálico) */
+.space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+}

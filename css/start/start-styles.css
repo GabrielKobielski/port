@@ -1,0 +1,55 @@
+:root{
+    --cor-verdestara:rgb(55, 87, 56);
+    --cor-laranjastara:rgb(229, 100, 37);
+    --cor-chumbostara:rgb(96, 91, 87);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 3rem;
+}
+#barra{
+    display: flex;
+    position: absolute;
+    top: 1rem;
+
+}
+#stara{
+    position: absolute;
+    display: flex;
+    width: 10rem;
+    left: 55rem;
+    width: 9rem;
+    top: 1rem; 
+}
+#quadrado1{
+    position: absolute;
+    display: flex;
+    left: 80rem;
+    top: 0rem;
+    background-color: var(--cor-chumbostara);
+    width: 60rem;
+    height: 10rem;
+    border-radius:10px;
+}
+#quadrado2{
+    position: absolute;
+    display: flex;
+    width: 12rem;
+    height: 10rem;
+    left: 10rem;
+    top:10rem ;
+    background-color:var(--cor-verdestara);
+    border-radius: 1rem;
+}
+#stara-absoluta{
+    display: flex;
+    position: absolute;
+    left: 20rem;
+    top: 5rem;
+    width: 80rem;
+    height: auto;
+    border-radius: 3%;
+}

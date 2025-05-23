@@ -1,0 +1,48 @@
+.switch.light {
+    background-color: rgb(77, 77, 77);
+    /**/
+
+}
+
+.switch.light .indicador {
+    left: 15px;
+    /**/
+    background-color: white;
+    /**/
+}
+
+body.light {
+  color: white;
+    background: linear-gradient(to right,
+            rgb(0, 0, 0) 78.88%,
+            rgb(240, 238, 238) 78.88% 100%);
+    transition: 0.5s;
+}
+.slabo-13px-regular {
+  font-family: "Slabo 13px", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}

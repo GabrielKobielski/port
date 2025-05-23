@@ -1,0 +1,212 @@
+/* Estiliza o elemento com ID "text", definindo a cor do texto como preto */
+#text {
+    color: black;
+}
+
+/* Define um quadrado alaranjado com borda branca, posicionado na tela */
+#quadrado1 {
+    width: 20vw; /* Largura baseada na largura da viewport */
+    height: 20vw; /* Altura igual à largura para formar um quadrado */
+    background-color: rgb(229, 100, 37); /* Cor laranja vibrante */
+    position: absolute; /* Posicionamento absoluto na tela */
+    left: 16vw; /* Distância da borda esquerda da viewport */
+    top: 5vw; /* Distância do topo da viewport */
+    border: 2px solid white; /* Borda branca sólida */
+}
+
+/* Define um quadrado cinza com borda branca, posicionado abaixo */
+#quadrado2 {
+    width: 20vw;
+    height: 20vw;
+    background-color: rgb(96, 91, 87); /* Cinza escuro */
+    position: absolute;
+    left: 7vw;
+    top: 22vw;
+    border: 2px solid white;
+}
+
+/* Quadrado pequeno no canto superior direito, possivelmente um botão */
+#quadrado3 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(96, 91, 87);
+    position: absolute;
+    top: 0px;
+    right: 0px; /* Alinha à direita */
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    border: 2px solid white;
+}
+
+/* Um quadrado similar ao "quadrado2", pode ser um erro de duplicação */
+#quadrado4 {
+    width: 20vw;
+    height: 20vw;
+    background-color: rgb(96, 91, 87);
+    position: absolute;
+    left: 7vw;
+    top: 22vw;
+    border: 2px solid white;
+}
+
+/* Pequeno círculo cinza */
+#quadrado5 {
+    width: 1vw;
+    height: 1vw;
+    background-color: rgb(96, 91, 87);
+    position: absolute;
+    left: 35vw;
+    top: 30vw;
+    border-radius: 20px; /* Totalmente arredondado, vira um círculo */
+    border: 2px solid white;
+}
+
+/* Pequeno círculo laranja */
+#quadrado6 {
+    width: 1vw;
+    height: 1vw;
+    background-color: orangered;
+    position: absolute;
+    left: 35vw;
+    top: 32vw;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+/* Pequeno círculo verde escuro */
+#quadrado7 {
+    width: 1vw;
+    height: 1vw;
+    background-color: rgb(1, 80, 1);
+    position: absolute;
+    left: 35vw;
+    top: 28vw;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+/* Estilo para uma imagem de fundo, com borda branca arredondada */
+#imagem-fundo {
+    width: 23vw;
+    height: auto; /* Altura ajustada automaticamente à largura */
+    position: absolute;
+    left: 10vw;
+    top: 8vw;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+/* Título grande posicionado no topo direito */
+#titulo {
+    position: absolute;
+    display: flex; /* Permite uso de flexbox caso tenha filhos */
+    left: 50vw;
+    top: 5vw;
+    font-size: 40px; /* Texto muito grande */
+}
+
+/* Número semitransparente posicionado à direita */
+#numero1 {
+    position: absolute;
+    display: flex;
+    left: 83vw;
+    top: 16vw;
+    font-size: 80px;
+    opacity: 0.5; /* Transparência reduzida */
+}
+
+/* Segundo número semelhante ao primeiro */
+#numero2 {
+    position: absolute;
+    display: flex;
+    left: 83vw;
+    top: 25vw;
+    font-size: 80px;
+    opacity: 0.5;
+}
+
+/* Texto descritivo posicionado no centro da tela */
+#desc {
+    position: absolute;
+    display: flex;
+    left: 40vw;
+    top: 18vw;
+    font-size: 24px;
+    max-width: 40vw; /* Impede que o texto passe de 40% da largura da viewport */
+}
+
+/* Segundo texto descritivo abaixo do primeiro */
+#desc2 {
+    position: absolute;
+    display: flex;
+    left: 40vw;
+    top: 27vw;
+    font-size: 24px;
+    max-width: 40vw;
+}
+
+/* Risco vertical verde escuro */
+#risco1 {
+    position: absolute;
+    display: flex;
+    width: 8px;
+    height: 110px;
+    left: 80vw;
+    top: 19vw;
+    background: rgb(55, 87, 56); /* Verde escuro */
+}
+
+/* Segundo risco vertical abaixo do primeiro */
+#risco2 {
+    position: absolute;
+    display: flex;
+    width: 8px;
+    height: 110px;
+    left: 80vw;
+    top: 28vw;
+    background: rgb(55, 87, 56);
+}
+
+/* Risco horizontal longo */
+#risco3 {
+    position: absolute;
+    display: flex;
+    width: 50vw;
+    height: 5px;
+    background-color: rgb(55, 87, 56);
+    left: 40vw;
+    top: 10vw;
+}
+
+/* Risco horizontal médio */
+#risco4 {
+    position: absolute;
+    display: flex;
+    width: 25vw;
+    height: 5px;
+    background-color: rgb(55, 87, 56);
+    left: 40vw;
+    top: 11vw;
+}
+
+/* Risco horizontal curto */
+#risco5 {
+    position: absolute;
+    display: flex;
+    width: 10vw;
+    height: 5px;
+    background-color: rgb(55, 87, 56);
+    left: 40vw;
+    top: 12vw;
+}
+
+/* Forma inclinada semelhante a uma rampa, cor verde escuro */
+#rampa {
+    width: 20vw;
+    height: 25vw;
+    background: rgb(55, 87, 56);
+    transform: skewY(-50deg); /* Inclina a forma no eixo Y */
+    position: absolute;
+    left: 80vw;
+    top: 35vw;
+    border: 4px solid black; /* Borda preta espessa */
+}

@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/start.css">
-    <link rel="icon" href="/img/bug-outline.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/css/start/start-styles.css">
+    <link rel="stylesheet" href="/css/start/start.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap" rel="stylesheet">
-    <title>Start</title>
+    <link rel="icon" href="/img/bug-outline.svg" type="image/svg+xml">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Lexend+Deca:wght@100..900&family=Slabo+13px&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Inicio</title>
 </head>
 
 <body>
@@ -17,8 +20,13 @@
         <nav>
             <section>
                 <article>
-                    <div class="switch" id="trilho">
-                        <div class="indicador"></div>
+                    <div class="imagem">
+                        <img src="/img/stara/logo-pt_BR.svg" alt="logo da stara na lateral" id="stara">
+                    </div>
+                    <div class="barra">
+                        <div class="switch" id="trilho">
+                            <div class="indicador"></div>
+                        </div>
                     </div>
                 </article>
             </section>
@@ -27,75 +35,24 @@
     <main>
         <section>
             <article>
-                <div class="tudo">
-                    <div class="perfil">
-                        <div id="foto-logo">
-                            <img class="imagem-logo" src="/img/icon2.png" alt="fundo-icon">
-                            <img class="imagem-logo2" src="/img/icon2.png" alt="fundo-icon2">
-                            <img class="imagem-logo3" src="/img/icon2.png" alt="fundo-icon3">
-                            <img class="imagem-logo4" src="/img/icon2.png" alt="fundo-icon4">
-                            <img class="imagem-logo5" src="/img/icon2.png" alt="fundo-icon5">
-                            <img class="imagem-logo6" src="/img/icon2.png" alt="fundo-icon4">
-                            <img class="imagem-logo7" src="/img/icon2.png" alt="fundo-icon5">
-                        </div>
+                <div class="front">
+                    <div id="quadrados">
+                        <div id="quadrado1"></div>
+                        <div id="quadrado2"></div>
+                        <div id="quadrado3"></div>
                     </div>
-
-                    <div class="capa">
-                        <div class="coluna-central">
-                            <div id="logo">
-                                <ul>
-                                    <li>JOÃO GABRIEL KOBIELSKI</li>
-                                </ul>
-                            </div>
-                            <div id="desc">
-                                <ul>
-                                    <li>-Passo Fundo, RS-</li>
-                                </ul>
-                            </div>
-                            <div id="feito">
-                                <ul>
-                                    <li>Feito por Kobielski</li>
-                                </ul>
-                            </div>
-                            <div id="icon">
-                                <div id="face-icon">
-                                    <a href="https://pt-br.facebook.com/" target="_blank">
-                                        <img src="/img/facebook.png" alt="face-icon" width="22px"></a>
-                                </div>
-                                <div id="tt-icon">
-                                    <a href="https://x.com/X." target="_blank">
-                                        <img src="/img/icons8-twitter-50.png" alt="tt-icon" width="24px"></a>
-                                </div>
-                            </div>
-                            <div class="links">
-                                <div id="sobre">
-                                    <ul>
-                                        <a href="sobre.html" target="_blank">
-                                            <li>SOBRE</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                                <div id="planos">
-                                    <ul>
-                                        <a href="planos.html" target="_blank">
-                                            <li>PLANO</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                                <div id="projetos">
-                                    <ul>
-                                        <a href="projetos.html" target="_blank">
-                                            <li>PROJETOS</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                    <div id="bolas"></div>
+                    <div id="riscos"></div>
+                    <div id="video">
+                        <video id="stara-absoluta" autoplay muted loop>
+                            <source src="img/video/stara-absoluta.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
             </article>
         </section>
     </main>
+
     <script src="js/start.js"></script>
 </body>
 
