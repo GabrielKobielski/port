@@ -1,55 +1,186 @@
-:root{
-    --cor-verdestara:rgb(55, 87, 56);
-    --cor-laranjastara:rgb(229, 100, 37);
-    --cor-chumbostara:rgb(96, 91, 87);
+:root {
+    --cor-verdestara: rgb(55, 87, 56);
+    --cor-laranjastara: rgb(229, 100, 37);
+    --cor-chumbostara: rgb(96, 91, 87);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
-nav{
-    height: 3rem;
-}
-#barra{
-    display: flex;
-    position: absolute;
-    top: 1rem;
 
-}
-#stara{
+
+#quadrado1 {
+    border: 2px solid black;
     position: absolute;
-    display: flex;
-    width: 10rem;
-    left: 55rem;
-    width: 9rem;
-    top: 1rem; 
-}
-#quadrado1{
-    position: absolute;
-    display: flex;
-    left: 80rem;
-    top: 0rem;
-    background-color: var(--cor-chumbostara);
-    width: 60rem;
-    height: 10rem;
-    border-radius:10px;
-}
-#quadrado2{
-    position: absolute;
-    display: flex;
-    width: 12rem;
-    height: 10rem;
-    left: 10rem;
-    top:10rem ;
-    background-color:var(--cor-verdestara);
+    width: 24rem;
+    height: 30rem;
+    background-color: var(--cor-verdestara);
+    left: 110rem;
     border-radius: 1rem;
 }
-#stara-absoluta{
-    display: flex;
+
+#quadrado2 {
+    border: 2px solid black;
     position: absolute;
+    width: 90rem;
+    height: 2rem;
+    background-color: var(--cor-verdestara);
+    left: 55rem;
+    top: 65rem;
+    border-radius: 1rem;
+
+}
+
+#quadrado3 {
+    border: 2px solid black;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--cor-chumbostara);
+    border-radius: 5rem;
+    top: 4rem;
     left: 20rem;
-    top: 5rem;
+}
+
+#quadrado4 {
+    border: 2px solid black;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--cor-laranjastara);
+    border-radius: 5rem;
+    top: 4rem;
+    left: 23rem;
+}
+
+#quadrado5 {
+    border: 2px solid black;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--cor-verdestara);
+    border-radius: 5rem;
+    top: 4rem;
+    left: 26rem;
+}
+
+#quadrado6 {
+    border: 2px solid black;
+    position: absolute;
     width: 80rem;
-    height: auto;
-    border-radius: 3%;
+    height: 30rem;
+    border-radius: 1rem;
+    top: 7rem;
+    left: 8rem;
+}
+
+#risco1 {
+    position: absolute;
+    width: 5px;
+    height: 50rem;
+    background-color: var(--cor-verdestara);
+    border-radius: 1rem;
+    top: 20rem;
+    left: 1rem;
+}
+
+#risco2 {
+    position: absolute;
+    width: 5px;
+    height: 40rem;
+    background-color: var(--cor-verdestara);
+    border-radius: 1rem;
+    top: 27rem;
+    left: 2rem;
+}
+
+#risco3 {
+    position: absolute;
+    width: 5px;
+    height: 30rem;
+    background-color: var(--cor-verdestara);
+    border-radius: 1rem;
+    top: 37rem;
+    left: 3rem;
+}
+
+#risco4 {
+    position: absolute;
+    width: 5px;
+    height: 20rem;
+    background-color: var(--cor-verdestara);
+    border-radius: 1rem;
+    top: 47rem;
+    left: 4rem;
+}
+
+#risco5 {
+    position: absolute;
+    width: 5px;
+    height: 10rem;
+    background-color: var(--cor-verdestara);
+    border-radius: 1rem;
+    top: 57rem;
+    left: 5rem;
+}
+
+#foto-perfil {
+    background-color: transparent;
+}
+
+#text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 10rem;
+    left: 10rem;
+
+}
+
+#title {
+    font-size: 2rem;
+}
+
+#desc {
+    font-size: 1rem;
+}
+
+
+#questionario {
+    display: inline-block;  
+    position: absolute;
+    top: 20rem;
+    left:10rem;
+    text-decoration: none;
+    color: black;
+    border: 2px solid ;
+    border-radius: 1rem;
+    background-color: rgba(55, 87, 56, 0.575);
+    padding: 5px;
+    transition: 0.3s ease;
+}
+#questionario:hover{
+    background-color: var(--cor-laranjastara);
+}
+#sobre {
+    text-decoration: none;
+    color: black;
+}
+#maquina{
+    position: absolute;
+    width: 20rem;
+    height: 12rem;
+    right: -50%;
+    background-color: transparent;
+    animation: moverDaEsquerda 5s linear infinite;
+}
+@keyframes moverDaEsquerda {
+  0% {
+    right: -50px; /* começa fora da tela à esquerda */
+  }
+  100% {
+    right: 100vw; /* termina fora da tela à direita */
+  }
 }
