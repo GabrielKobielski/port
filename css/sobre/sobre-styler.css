@@ -1,0 +1,183 @@
+:root{
+    --cor-verdestara: rgb(55, 87, 56);
+    --cor-laranjastara: rgb(229, 100, 37);
+    --cor-chumbostara: rgb(96, 91, 87);
+}
+
+#foto-perfil {
+    display: flex;
+    position: absolute;
+    width: 40rem;
+    top: 10%;
+    left: 60%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#quadrado {
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+#quadrado2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(95, 95, 95);
+    position: absolute;
+    top: 40vw;
+    right: 38vw;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+#quadrado3 {
+    width: 1vw;
+    height: 1vw;
+    background-color: rgb(55, 87, 56);
+    position: absolute;
+    top: 27vw;
+    left: 15vw;
+    transition: 0.5s;
+}
+
+#quadrado4 {
+    width: 1vw;
+    height: 1vw;
+    background-color: rgb(229, 100, 37);
+    position: absolute;
+    top: 27vw;
+    left: 19vw;
+    transition: 0.5s;
+}
+
+#quadrado5 {
+    width: 1vw;
+    height: 1vw;
+    background-color: rgb(96, 91, 87);
+    position: absolute;
+    top: 27vw;
+    left: 23vw;
+    transition: 0.5s;
+}
+
+#quadrado6 {
+    width: 9vw;
+    height: 2vw;
+    background-color: rgb(55, 87, 56);
+    position: absolute;
+    top: 94%;
+    left: 41vw;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#risco {
+    width: 37vw;
+    height: 4px;
+    background-color: rgb(55, 87, 56);
+    position: absolute;
+    top: 20vw;
+    left: 15vw;
+}
+
+#risco2 {
+    width: 29vw;
+    height: 4px;
+    background-color: rgb(229, 100, 37);
+    position: absolute;
+    top: 21vw;
+    left: 23vw;
+}
+
+#risco3 {
+    width: 15vw;
+    height: 4px;
+    background-color: rgb(96, 91, 87);
+    position: absolute;
+    top: 22vw;
+    left: 37vw;
+}
+
+#nome {
+    position: absolute;
+    top: 14vw;
+    left: 15vw;
+    font-size: 50px;
+
+}
+
+#nome-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 90%;
+    top: 20%;
+}
+
+#ano {
+    position: absolute;
+    top: 17vw;
+    left: 15vw;
+    font-size: 50px;
+
+}
+
+#desc {
+    position: absolute;
+    top: 30vw;
+    left: 15vw;
+    font-size: 18px;
+    max-width: 45vw;
+}
+
+#seta-esquerda {
+    display: flex;
+    position: absolute;
+    max-width: 12px;
+    height: 40px;
+    top: 45vw;
+    left: 43vw;
+}
+
+#seta-direita {
+    display: flex;
+    position: absolute;
+    height: 40px;
+    top: 45vw;
+    left: 46vw;
+}
+#questionario{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
+    padding-left:2%;
+    padding-right: 2%;
+    padding: 1%;
+}
+#start{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
+    padding-left:2%;
+    padding-right: 2%;
+    padding: 1%;
+}

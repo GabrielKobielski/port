@@ -1,11 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/questionario/questionario-styles.css">
+    <link rel="stylesheet" href="css/questionario/questionario.css">
+    <link rel="icon" href="img/icon/bug-outline.svg" type="image/svg+xml">
+    <title>Questionario</title>
 </head>
+
 <body>
-    
+    <div class="barra">
+        <div class="switch" id="trilho">
+            <div class="indicador"></div>
+        </div>
+    </div>
+    <section>
+        <main>
+            <div class="questionario">
+                <form id="questionario">
+
+                    <p>1) Qual a melhor empresa para se trabalhar?</p>
+
+                    <label>
+                        <input type="radio" name="empresa" value="stara">
+                        1. Stara
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="empresa" value="Stara evolução constante">
+                        2. Stara evolução constante
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="empresa" value="Stara Mania">
+                        3. Stara Mania
+                    </label><br>
+                    <label>
+                        <br>
+                        Escreva aqui uma empresa melhor que a Stara<br>
+                        <input type="text" name="empresa" id="cx-text" placeholder="e falhe mizeravelmente!!">
+
+                    </label>
+                </form>
+                <form id="questionario2">
+
+                    <p>2) Qual a melhor faculdade para se estudar?</p>
+
+                    <label>
+                        <input type="radio" name="empresa" value="stara">
+                        1. UPF
+                    </label><br>
+                        
+                    <label>
+                        <input type="radio" name="empresa" value="Stara evolução constante">
+                        2. IFSUL
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="empresa" value="Stara Mania">
+                        3. Atitus
+                    </label><br>
+                    <label>
+                        <br>
+                        Escreva aqui sua resposta<br>
+                        <input type="text" name="empresa" id="cx-text" >
+
+                    </label>
+                </form>
+                <form id="questionario3">
+
+                    <p>3) Se algum aluno pedisse a senha dos seus cartões do banco</p>
+
+                    <label>
+                        <input type="radio" name="empresa" value="stara">
+                        1. Eu entregava e ainda dava mais dinheiro do cheque especial.
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="empresa" value="Stara evolução constante">
+                        2. Depende do aluno.
+                    </label><br>
+
+                </form>
+                <form id="questionario4">
+
+                    <p>4) Qual foi a melhor experiencia que voce teve atraves do seu emprego atual</p>
+
+                    
+                    <label>
+                        <br>
+                        Conte aqui sua experiencia<br>
+                        <input type="text" name="empresa" id="cx-text" >
+
+                    </label>
+                </form>
+                <form id="questionario5">
+
+                    <p>5) Na sua opinião deve existir cota para faculdades?</p>
+
+                    <label>
+                        <input type="radio" name="empresa" value="stara">
+                        1. Sim
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="empresa" value="Stara evolução constante">
+                        2. Não
+                    </label><br>
+
+                    
+                        <br>
+                        Justifique sua resposta<br>
+                        <input type="text" name="empresa" id="cx-text" >
+
+                    </label>
+                </form>
+                <div>
+                    <a href="start.html" id="start" target="_blank">Start</a>
+                    <a href="sobre.html" id="sobre" target="_blank">Sobre</a>
+                    <a href="projetos.html" id="projetos" target="_blank">Projetos</a>
+                </div>
+                <img src="img/stara/logo-pt_BR.svg" alt="logo stara" id="stara-logo">
+            </div>
+    </section>
+    </main>
+    <script src="js/start.js"></script>
 </body>
+
 </html>
