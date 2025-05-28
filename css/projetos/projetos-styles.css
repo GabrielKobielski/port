@@ -1,4 +1,9 @@
 /* Estiliza o elemento com ID "text", definindo a cor do texto como preto */
+:root{
+    --cor-verdestara: rgb(55, 87, 56);
+    --cor-laranjastara: rgb(229, 100, 37);
+    --cor-chumbostara: rgb(96, 91, 87);
+}
 #text {
     color: black;
 }
@@ -209,4 +214,36 @@
     left: 80vw;
     top: 35vw;
     border: 4px solid black; /* Borda preta espessa */
+}
+#questionario{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 252, 252);
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
+    padding-left:2%;
+    padding-right: 2%;
+    padding: 1%;
+}
+#questionario:hover{
+    background-color: var(--cor-laranjastara);
+}
+#start{
+    position: absolute;
+    top: 80%;
+    left: 58%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
+    padding-left:2%;
+    padding-right: 2%;
+    padding: 1%;
+}
+#start:hover{
+    background-color: var(--cor-laranjastara);
 }

@@ -1,0 +1,104 @@
+#questionario {
+    position: absolute;
+    top: 7%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.158);
+    width: 40%;
+
+}
+
+#questionario2 {
+    position: absolute;
+    top: 29%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.158);
+    width: 40%;
+}
+
+#questionario3 {
+    position: absolute;
+    top: 51%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.158);
+    width: 40%;
+}
+
+#questionario4 {
+    position: absolute;
+    top: 73%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.158);
+    width: 40%;
+}
+
+#questionario5 {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.158);
+    width: 40%;
+}
+
+#stara-logo {
+    position: absolute;
+    left: 53%;
+    top: 40%;
+    border: 2px solid black;
+    padding: 5%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
+#projetos {
+    position: absolute;
+    display: table-column;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.158);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    left: 46%;
+    top: 50%
+    
+}
+
+#start {
+    position: absolute;
+    display: table-column;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.158);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    left: 46%;
+    top: 45%
+}
+
+#sobre {
+    position: absolute;
+    display: table-column;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.158);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    left: 46%;
+    top: 40%
+}

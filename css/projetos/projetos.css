@@ -1,8 +1,14 @@
 /* Define a fonte padrão para todos os elementos como "Space Mono", estilo monoespaçado, em negrito e normal */
+:root{
+    --cor-verdestara: rgb(55, 87, 56);
+    --cor-laranjastara: rgb(229, 100, 37);
+    --cor-chumbostara: rgb(96, 91, 87);
+}
 * {
     font-family: "Space Mono", monospace;
     font-weight: 700;
     font-style: normal;
+    overflow: hidden;
 }
 
 /* Define o fundo do corpo da página e adiciona uma transição suave nas mudanças de estilo */
@@ -82,7 +88,20 @@ body.light #risco4 {
 body.light #risco5 {
     background-color: orangered;
 }
-
+body.light #questionario{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.247);
+}
+body.light #start{
+    color: white;
+    background-color:  rgba(255, 255, 255, 0.247);
+}
+body.light #questionario:hover{
+    background-color: var(--cor-laranjastara);
+}
+body.light #start:hover{
+    background-color: var(--cor-laranjastara);
+}
 /* Define variações de peso e estilo da fonte Space Mono */
 
 /* Fonte regular (peso normal, sem itálico) */

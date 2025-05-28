@@ -1,6 +1,6 @@
 /* Define a fonte padrão para todos os elementos como "Space Mono", estilo monoespaçado, em negrito e normal */
 :root {
-
+    
     --cor-verdestara: rgb(55, 87, 56);
     --cor-laranjastara: rgb(229, 100, 37);
     --cor-chumbostara: rgb(96, 91, 87);
@@ -15,129 +15,15 @@
 
 /* Define o fundo do corpo da página e adiciona uma transição suave nas mudanças de estilo */
 body {
-    background-color: rgb(238, 238, 238);
-    transition: 0.5s;
+    background-image: url(../../img/fundo.jpg);
+    background-size: cover;
+    background-position: end;
+    background-repeat: no-repeat;
+    color: white;
     /* Suaviza a transição de estilos */
 }
 
-/* Estiliza o botão de alternância (switch) */
-.switch {
-    width: 35px;
-    /* Largura do botão */
-    height: 20px;
-    /* Altura do botão */
-    background-color: #4d4d4d;
-    /* Cor de fundo do botão */
-    border-radius: 10px;
-    /* Cantos arredondados */
-    position: relative;
-    /* Posicionamento relativo para conter o indicador */
-    cursor: pointer;
-    /* Cursor de clique */
-    margin: 10px;
-    /* Espaçamento externo */
-}
 
-/* Estiliza o indicador interno do botão switch */
-.switch .indicador {
-    width: 20px;
-    /* Largura do indicador */
-    height: 20px;
-    /* Altura do indicador */
-    background-color: black;
-    /* Cor do indicador */
-    border-radius: 50%;
-    /* Forma circular */
-    transform: scale(.9);
-    /* Leve redução de escala */
-    position: absolute;
-    /* Posicionamento absoluto dentro do switch */
-    left: 0;
-    /* Posiciona à esquerda */
-    transition: 0.5s;
-    /* Suaviza transições do indicador */
-}
-
-/* Estilo do switch quando está no modo "light" */
-.switch.light {
-    background-color: rgb(77, 77, 77);
-    /* Cor do switch em modo claro */
-}
-
-/* Estilo do indicador quando o switch está em modo "light" */
-.switch.light .indicador {
-    left: 15px;
-    /* Move o indicador para a direita */
-    background-color: rgb(98, 93, 93);
-    /* Altera a cor do indicador */
-}
-
-/* Estilo do corpo da página quando está no modo "light" */
-body.light {
-    background-color: rgb(36, 36, 36);
-    /* Fundo escuro para modo claro invertido (modo noturno?) */
-}
-
-
-/* Altera cor do texto de elemento com ID "text" no modo "light" */
-body.light #text {
-    color: white;
-}
-
-body.light #quadrado1 {
-    background-color: var(--cor-laranjastara);
-    border: 2px solid white;
-}
-
-body.light #quadrado2 {
-    background-color: var(--cor-laranjastara);
-    border: 2px solid white;
-}
-
-body.light #quadrado3 {
-    border: 2px solid white;
-}
-
-body.light #quadrado4 {
-    border: 2px solid white;
-}
-
-body.light #quadrado5 {
-    border: 2px solid white;
-}
-
-body.light #quadrado6 {
-    border: 2px solid white;
-}
-
-body.light #risco1 {
-    background-color: var(--cor-laranjastara);
-    border: 2px solid white;
-}
-
-body.light #risco2 {
-    background-color: var(--cor-laranjastara);
-    border: 2px solid white;
-}
-
-body.light #risco3 {
-    background-color: var(--cor-laranjastara);
-    border: 2px solid white;
-}
-
-body.light #risco4 {
-    background-color: var(--cor-laranjastara);
-    border: 2px solid white;
-}
-
-body.light #risco5 {
-    background-color: var(--cor-laranjastara);
-    border: 2px solid white;
-}
-body.light #questionario{
-    color: white;
-    background-color: var(--cor-laranjastara);
-}
 /* Fonte regular (peso normal, sem itálico) */
 .space-mono-regular {
     font-family: "Space Mono", monospace;

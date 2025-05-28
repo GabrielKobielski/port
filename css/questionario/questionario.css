@@ -1,0 +1,152 @@
+:root {
+    --cor-verdestara: rgb(55, 87, 56);
+    --cor-laranjastara: rgb(229, 100, 37);
+    --cor-chumbostara: rgb(96, 91, 87);
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+    /* Cor de fundo clara */
+    transition: 0.5s;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.switch {
+    width: 35px;
+    /* Largura do botão */
+    height: 20px;
+    /* Altura do botão */
+    background-color: #4d4d4d;
+    /* Cor de fundo do botão */
+    border-radius: 10px;
+    /* Cantos arredondados */
+    position: relative;
+    /* Posicionamento relativo para conter o indicador */
+    cursor: pointer;
+    /* Cursor de clique */
+    margin: 10px;
+    /* Espaçamento externo */
+}
+
+/* Estiliza o indicador interno do botão switch */
+.switch .indicador {
+    width: 20px;
+    /* Largura do indicador */
+    height: 20px;
+    /* Altura do indicador */
+    background-color: black;
+    /* Cor do indicador */
+    border-radius: 50%;
+    /* Forma circular */
+    transform: scale(.9);
+    /* Leve redução de escala */
+    position: absolute;
+    /* Posicionamento absoluto dentro do switch */
+    left: 0;
+    /* Posiciona à esquerda */
+    transition: 0.5s;
+    /* Suaviza transições do indicador */
+}
+
+/* Estilo do switch quando está no modo "light" */
+.switch.light {
+    background-color: rgb(77, 77, 77);
+    /* Cor do switch em modo claro */
+}
+
+/* Estilo do indicador quando o switch está em modo "light" */
+.switch.light .indicador {
+    left: 15px;
+    /* Move o indicador para a direita */
+    background-color: rgb(98, 93, 93);
+    /* Altera a cor do indicador */
+}
+
+/* Estilo do corpo da página quando está no modo "light" */
+body.light {
+    background-color: rgb(36, 36, 36);
+    /* Fundo escuro para modo claro invertido (modo noturno?) */
+}
+
+body.light #questionario {
+    background-color: rgba(255, 255, 255, 0.336);
+    color: white;
+    border: 2px solid white;
+}
+
+body.light #questionario2 {
+    background-color: rgba(255, 255, 255, 0.336);
+    color: white;
+    border: 2px solid white;
+}
+
+body.light #questionario3 {
+    background-color: rgba(255, 255, 255, 0.336);
+    color: white;
+    border: 2px solid white;
+}
+
+body.light #questionario4 {
+    background-color: rgba(255, 255, 255, 0.336);
+    color: white;
+    border: 2px solid white;
+}
+
+body.light #questionario5 {
+    background-color: rgba(255, 255, 255, 0.336);
+    color: white;
+    border: 2px solid white;
+}
+
+body.light #stara-logo {
+    background-color: rgba(255, 255, 255, 0.336);
+
+    border: 2px solid white;
+}
+
+body.light #sobre {
+    background-color: rgba(255, 255, 255, 0.336);
+    color: white;
+    border: 2px solid white;
+}
+
+body.light #projetos {
+    background-color: rgba(255, 255, 255, 0.336);
+    color: white;
+    border: 2px solid white;
+}
+
+body.light #start {
+    background-color: rgba(255, 255, 255, 0.336);
+    color: white;
+    border: 2px solid white;
+}
+
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Fonte em negrito (peso 700, sem itálico) */
+.space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Fonte itálica (peso normal, com itálico) */
+.space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Fonte negrito itálico (peso 700, com itálico) */
+.space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
